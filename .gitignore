@@ -1,0 +1,28 @@
+# Ignore everything
+*
+
+# But not these files
+!.gitignore
+!requirements.txt
+!main.ipynb
+!restaurant-data.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment directories
+.env
+env/
+venv/
+ENV/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
